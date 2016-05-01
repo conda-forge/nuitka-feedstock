@@ -1,4 +1,4 @@
-{% set version = "0.5.21" %}
+{% set version = "0.5.21.1" %}
 
 package:
   name: nuitka
@@ -7,11 +7,11 @@ package:
 source:
   fn: Nuitka-{{ version }}.tar.gz
   url: http://nuitka.net/releases/Nuitka-{{ version }}.tar.gz
-  md5: 1af0bf16740c335737bfda4fb9713e69
+  md5: ec5ac51450f2f25c951e61c04f73f594
 
 build:
   number: 0
-  script: python setup.py install
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
