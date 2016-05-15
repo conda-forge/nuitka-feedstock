@@ -5,7 +5,7 @@ Home: http://nuitka.net
 
 Package license: Apache License, Version 2.0
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Python compiler with full language support and CPython compatibility
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nuitka-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/nuitka-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/nuitka-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nuitka-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nuitka-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nuitka-feedstock/branch/master)
