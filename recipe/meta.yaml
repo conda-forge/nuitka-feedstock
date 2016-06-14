@@ -1,4 +1,4 @@
-{% set version = "0.5.21.1" %}
+{% set version = "0.5.21.3" %}
 
 package:
   name: nuitka
@@ -7,7 +7,7 @@ package:
 source:
   fn: Nuitka-{{ version }}.tar.gz
   url: http://nuitka.net/releases/Nuitka-{{ version }}.tar.gz
-  md5: ec5ac51450f2f25c951e61c04f73f594
+  md5: 39df9afddd9a3c53cc1e4eea2527756a
 
 build:
   number: 1
