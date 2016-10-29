@@ -1,21 +1,24 @@
-{% set version = "0.5.21.3" %}
+{% set name = "Nuitka" %}
+{% set version = "0.5.23.1" %}
+{% set sha256 = "61a063ce957ed1add2ca5f4e1b8979621579dac0530bb3e488d76f956f550668" %}
 
 package:
-  name: nuitka
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: Nuitka-{{ version }}.tar.gz
-  url: http://nuitka.net/releases/Nuitka-{{ version }}.tar.gz
-  md5: 39df9afddd9a3c53cc1e4eea2527756a
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
+    - setuptools
 
   run:
     - python
