@@ -3,7 +3,7 @@ About nuitka
 
 Home: http://nuitka.net
 
-Package license: Apache License, Version 2.0
+Package license: Apache 2.0
 
 Feedstock license: BSD 3-Clause
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `nuitka` available on your platfor
 ```
 conda search nuitka --channel conda-forge
 ```
-
 
 
 About conda-forge
