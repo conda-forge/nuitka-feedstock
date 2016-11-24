@@ -1,6 +1,6 @@
 {% set name = "Nuitka" %}
-{% set version = "0.5.23.1" %}
-{% set sha256 = "61a063ce957ed1add2ca5f4e1b8979621579dac0530bb3e488d76f956f550668" %}
+{% set version = "0.5.24.1" %}
+{% set sha256 = "688b3ffef2f4cf48e55e9ec95760a3932376166565f5d023d5c1c0167117ec5a" %}
 
 package:
   name: {{ name|lower }}
@@ -45,7 +45,7 @@ test:
 
 about:
   home: http://nuitka.net
-  license: Apache License, Version 2.0
+  license: Apache 2.0
   summary: Python compiler with full language support and CPython compatibility
 
 extra:
