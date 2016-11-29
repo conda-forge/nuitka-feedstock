@@ -11,6 +11,18 @@ Summary: Python compiler with full language support and CPython compatibility
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nuitka-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nuitka-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nuitka-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nuitka-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nuitka-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nuitka-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nuitka/badges/version.svg)](https://anaconda.org/conda-forge/nuitka)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nuitka/badges/downloads.svg)](https://anaconda.org/conda-forge/nuitka)
+
 Installing nuitka
 =================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nuitka-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nuitka-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nuitka-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nuitka-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nuitka-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nuitka-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nuitka/badges/version.svg)](https://anaconda.org/conda-forge/nuitka)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nuitka/badges/downloads.svg)](https://anaconda.org/conda-forge/nuitka)
 
 
 Updating nuitka-feedstock
