@@ -4,7 +4,7 @@
 {% set sha256 = "4ab589daed358382c8f47edc907cde74ec01485c563850fc44893ecc7de220dd" %}
 
 package:
-  name: {{ name }}
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
