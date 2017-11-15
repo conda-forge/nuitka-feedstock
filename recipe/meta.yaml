@@ -1,14 +1,15 @@
 {% set name = "Nuitka" %}
-{% set version = "0.5.25" %}
-{% set sha256 = "e05bbfa8f9043a691bc90e975ae4c497d7794e7595bca1e04797bbb45892222d" %}
+{% set version = "0.5.28.1" %}
+{% set prefix = "bf/2c/2c84987fd8a14fac938534faaee35c2247fab1a59063c4902e29e76e07ba" %}
+{% set sha256 = "4ab589daed358382c8f47edc907cde74ec01485c563850fc44893ecc7de220dd" %}
 
 package:
-  name: {{ name|lower }}
+  name: {{ name }}
   version: {{ version }}
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ prefix }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -52,3 +53,4 @@ extra:
   recipe-maintainers:
     - frol
     - kayhayen
+    - mjscosta
