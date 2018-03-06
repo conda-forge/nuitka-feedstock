@@ -35,7 +35,7 @@ test:
     - nuitka.nodes
     - nuitka.optimizations
     - nuitka.plugins
-    - nuitka.profiler
+    - nuitka.tools
     - nuitka.tree
     - nuitka.utils
 
