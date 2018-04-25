@@ -14,14 +14,16 @@ Summary: Python compiler with full language support and CPython compatibility
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nuitka-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nuitka-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nuitka-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nuitka-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nuitka-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nuitka-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/nuitka-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/nuitka-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/nuitka-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/nuitka-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/nuitka-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/nuitka-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nuitka/badges/version.svg)](https://anaconda.org/conda-forge/nuitka)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nuitka/badges/downloads.svg)](https://anaconda.org/conda-forge/nuitka)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-nuitka-green.svg)](https://anaconda.org/conda-forge/nuitka) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nuitka.svg)](https://anaconda.org/conda-forge/nuitka) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nuitka.svg)](https://anaconda.org/conda-forge/nuitka) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nuitka.svg)](https://anaconda.org/conda-forge/nuitka) |
 
 Installing nuitka
 =================
