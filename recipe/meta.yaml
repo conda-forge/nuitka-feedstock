@@ -48,7 +48,25 @@ test:
 about:
   home: http://nuitka.net
   license: Apache 2.0
+  license_family: Apache
+  license_file: LICENSE.txt
   summary: Python compiler with full language support and CPython compatibility
+  description: |
+    Nuitka is the Python compiler. It is a seamless replacement or extension
+    to the Python interpreter and compiles every construct that CPython 2.6,
+    2.7, 3.2, 3.3, 3.4, 3.5, and 3.6 have. It then executes uncompiled code,
+    and compiled code together in an extremely compatible manner.
+
+    You can use all Python library modules or and all extension modules freely.
+    It translates the Python into a C level program that then uses "libpython"
+    to execute in the same way as CPython does. All optimization is aimed at
+    avoiding overhead, where it's unnecessary. None is aimed at removing
+    compatibility, although slight improvements will occassionally be done,
+    where not every bug of standard Python is emulated, e.g. more complete
+    error messages are given, but there is a full compatibility mode to
+    disable even that.
+  doc_url: http://nuitka.net/pages/documentation.html
+  dev_url: https://github.com/kayhayen/Nuitka
 
 extra:
   recipe-maintainers:
