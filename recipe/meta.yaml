@@ -35,10 +35,11 @@ test:
     - nuitka.containers
     - nuitka.finalizations
     - nuitka.freezer
-    - nuitka.gui
+    - nuitka.importing
     - nuitka.nodes
     - nuitka.optimizations
     - nuitka.plugins
+    - nuitka.specs
     - nuitka.tools
     - nuitka.tree
     - nuitka.utils
