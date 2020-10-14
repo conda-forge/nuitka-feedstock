@@ -5,9 +5,13 @@ Home: http://nuitka.net
 
 Package license: Apache 2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nuitka-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python compiler with full language support and CPython compatibility
+
+Development: https://github.com/kayhayen/Nuitka
+
+Documentation: http://nuitka.net/pages/documentation.html
 
 Nuitka is the Python compiler. It is a seamless replacement or extension
 to the Python interpreter and compiles every construct that CPython 2.6,
