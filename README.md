@@ -3,7 +3,7 @@ About nuitka
 
 Home: http://nuitka.net
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nuitka-feedstock/blob/master/LICENSE.txt)
 
@@ -15,7 +15,7 @@ Documentation: http://nuitka.net/pages/documentation.html
 
 Nuitka is the Python compiler. It is a seamless replacement or extension
 to the Python interpreter and compiles every construct that CPython 2.6,
-2.7, 3.3, 3.4, 3.5, 3.6, and 3.7 have. It then executes uncompiled code,
+2.7, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9 have. It then executes uncompiled code,
 and compiled code together in an extremely compatible manner.
 
 You can use all Python library modules or and all extension modules freely.
