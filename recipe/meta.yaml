@@ -31,8 +31,6 @@ test:
   imports:
     - nuitka
     - nuitka.build
-    - nuitka.codegen
-    - nuitka.codegen.templates
     - nuitka.containers
     - nuitka.finalizations
     - nuitka.freezer
