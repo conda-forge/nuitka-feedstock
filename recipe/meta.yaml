@@ -22,9 +22,11 @@ build:
 requirements:
   host:
     - python >=3.6
+    - libpython-static
     - pip
   run:
     - python >=3.6
+    - libpython-static
     # We don't add any dependencies here since Nuitka vendors all its dependencies
 
 test:
