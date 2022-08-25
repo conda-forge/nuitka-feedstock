@@ -47,7 +47,8 @@ test:
 
   commands:
     - nuitka --help
-    - nuitka --show-scons --run tests/basics/Empty.py
+    - touch Empty.py
+    - nuitka --show-scons --run Empty.py
 
 
 about:
