@@ -45,6 +45,8 @@ test:
 
   commands:
     - nuitka --help
+    - nuitka --show-scons --run tests/basics/Empty.py
+
 
 about:
   home: http://nuitka.net
@@ -55,8 +57,9 @@ about:
   description: |
     Nuitka is the Python compiler. It is a seamless replacement or extension
     to the Python interpreter and compiles every construct that CPython 2.6,
-    2.7, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9 have. It then executes uncompiled code,
-    and compiled code together in an extremely compatible manner.
+    2.7, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 have. It then executes
+    uncompiled code, and compiled code together in an extremely compatible
+    manner.
 
     You can use all Python library modules or and all extension modules freely.
     It translates the Python into a C level program that then uses "libpython"
@@ -66,10 +69,10 @@ about:
     where not every bug of standard Python is emulated, e.g. more complete
     error messages are given, but there is a full compatibility mode to
     disable even that.
-  doc_url: http://nuitka.net/pages/documentation.html
+  doc_url: https://nuitka.net/doc/user-manual.html
   dev_url: https://github.com/kayhayen/Nuitka
 
 extra:
   recipe-maintainers:
-    - frol
     - kayhayen
+    - frol
