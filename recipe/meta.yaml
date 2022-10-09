@@ -18,17 +18,15 @@ build:
     - nuitka = nuitka.__main__:main
     - nuitka-run = nuitka.__main__:main
   skip: true  # [python_impl == 'pypy']
-  skip: true  # [py==37]
 
 requirements:
   host:
     - python
-    - libpython-static
+    - libpython-static  # [py != 37]
     - pip
-    - cmake  # [linux64 and py==39]
   run:
     - python
-    - libpython-static
+    - libpython-static  # [py != 37]
     # We don't add any dependencies here since Nuitka vendors all its dependencies
 
 test:
