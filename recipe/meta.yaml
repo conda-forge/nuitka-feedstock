@@ -25,6 +25,7 @@ requirements:
     - python
     - libpython-static
     - pip
+    - cmake  # [linux64 and py==39]
   run:
     - python
     - libpython-static
