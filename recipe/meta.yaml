@@ -17,6 +17,7 @@ build:
   entry_points:
     - nuitka = nuitka.__main__:main
     - nuitka-run = nuitka.__main__:main
+  skip: true  # [python_impl == 'pypy']    
 
 requirements:
   host:
