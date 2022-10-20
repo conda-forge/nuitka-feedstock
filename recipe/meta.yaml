@@ -22,11 +22,11 @@ build:
 requirements:
   host:
     - python
-    - libpython-static  # [not win]
+    - libpython-static  # [not win and not py==37]
     - pip
   run:
     - python
-    - libpython-static  # [not win]
+    - libpython-static  # [not win and not py==37]
     # We don't add any dependencies here since Nuitka vendors all its dependencies
 
 test:
