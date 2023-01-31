@@ -1,6 +1,6 @@
 {% set name = "Nuitka" %}
-{% set version = "1.4.1" %}
-{% set sha256 = "38573f0604ac5bb460ac67af54be8ec3cfab4639303002eb6b3f2a923e701367" %}
+{% set version = "1.4.2" %}
+{% set sha256 = "4dfb383f1328719c766801cd4ffb332b499dec92fafe6ef16a1c137517ec395d" %}
 
 package:
   name: {{ name|lower }}
