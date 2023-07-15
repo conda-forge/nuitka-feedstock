@@ -3,7 +3,7 @@ About nuitka-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nuitka-feedstock/blob/main/LICENSE.txt)
 
-Home: http://nuitka.net
+Home: https://nuitka.net
 
 Package license: Apache-2.0
 
