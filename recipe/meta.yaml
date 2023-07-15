@@ -53,7 +53,7 @@ test:
 
 
 about:
-  home: http://nuitka.net
+  home: https://nuitka.net
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE.txt
