@@ -77,8 +77,8 @@ about:
     where not every bug of standard Python is emulated, e.g. more complete
     error messages are given, but there is a full compatibility mode to
     disable even that.
-  doc_url: https://nuitka.net/doc/user-manual.html
-  dev_url: https://github.com/kayhayen/Nuitka
+  doc_url: https://nuitka.net/user-documentation/
+  dev_url: https://github.com/Nuitka/Nuitka
 
 extra:
   recipe-maintainers:
