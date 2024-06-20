@@ -27,9 +27,11 @@ requirements:
     - python
     - libpython-static  # [not win and not py==37]
     - pip
+    - c-compiler
   run:
     - python
     - libpython-static  # [not win and not py==37]
+    - c-compiler
     # We don't add any dependencies here since Nuitka vendors all its dependencies
 
 test:
