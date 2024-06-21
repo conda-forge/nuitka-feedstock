@@ -9,14 +9,14 @@ Package license: Apache-2.0
 
 Summary: Python compiler with full language support and CPython compatibility
 
-Development: https://github.com/kayhayen/Nuitka
+Development: https://github.com/Nuitka/Nuitka
 
-Documentation: https://nuitka.net/doc/user-manual.html
+Documentation: https://nuitka.net/user-documentation/
 
 Nuitka is the Python compiler. It is a seamless replacement or extension
 to the Python interpreter and compiles every construct that CPython 2.6,
 2.7, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 3.11, 3.12 have. It then executes
-uncompiled code, and compiled code together in a highly compatible
+uncompiled code, and compiled code together in an extremely compatible
 manner.
 
 You can use all Python library modules or and all extension modules freely.
