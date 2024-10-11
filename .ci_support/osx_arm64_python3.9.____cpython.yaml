@@ -20,6 +20,8 @@ python_impl:
 - cpython
 target_platform:
 - osx-arm64
+tk:
+- '8.6'
 zip_keys:
 - - python
   - python_impl
