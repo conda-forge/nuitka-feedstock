@@ -34,7 +34,7 @@ requirements:
     - c-compiler
     - patchelf # [linux]
     - ccache # [linux]
-    - ordered-set  [py>=37]
+    - ordered-set # [py>=37]
     # We don't add any most dependencies here since Nuitka vendors all its dependencies
 
 test:
