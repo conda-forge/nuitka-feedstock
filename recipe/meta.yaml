@@ -32,9 +32,9 @@ requirements:
     - python
     - libpython-static  # [not win and not py==37]
     - c-compiler
-    - patchelf # [linux]
-    - ccache # [linux]
-    - ordered-set # [py>=37]
+    - patchelf  # [linux]
+    - ccache  # [linux]
+    - ordered-set  # [py>=37]
     # We don't add any most dependencies here since Nuitka vendors all its dependencies
 
 test:
