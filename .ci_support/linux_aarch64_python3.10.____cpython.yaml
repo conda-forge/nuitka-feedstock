@@ -1,7 +1,5 @@
 c_compiler:
 - gcc
-cdt_name:
-- conda
 channel_sources:
 - conda-forge
 channel_targets:
