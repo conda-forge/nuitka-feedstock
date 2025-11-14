@@ -1,6 +1,6 @@
 {% set name = "Nuitka" %}
-{% set version = "2.8.4" %}
-{% set sha256 = "06b020ef33be97194f888dcfcd4c69c8452ceb61b31c7622e610d5156eb7923d" %}
+{% set version = "2.8.6" %}
+{% set sha256 = "a648c392d2a041f31c9582a68ef7c1a3a71166eaf2d344a0bb1d03f184ed3a2a" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
