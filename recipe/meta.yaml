@@ -1,6 +1,6 @@
 {% set name = "Nuitka" %}
-{% set version = "4.2.2" %}
-{% set sha256 = "29c1bfb6f53154e620b38cf6167cbb03f54043f6e08ef7d3f2d5080a95df7e0d" %}
+{% set version = "4.3" %}
+{% set sha256 = "8b102c6bf30d9504e82e69674d396972729092b25cefa680e8fd05678fdfa30b" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - nuitka = nuitka.__main__:main
